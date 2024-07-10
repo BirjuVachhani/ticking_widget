@@ -4,6 +4,8 @@ A widget to build clocks, timers and everything that changes with time.
 
 [![Pub Package](https://img.shields.io/pub/v/ticking_widget.svg)](https://pub.dev/packages/ticking_widget) [![Code Quality](https://github.com/BirjuVachhani/ticking_widget/workflows/Code%20Quality/badge.svg?branch=main)](https://github.com/BirjuVachhani/flutter_screwdriver/actions)
 
+Demo: [Playground](https://ticking_widget.codemagic.app/)
+
 ## Getting Started
 
 1. Add as a dependency in your project's `pub spec.yaml`
