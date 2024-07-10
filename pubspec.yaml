@@ -1,0 +1,21 @@
+name: ticking_widget
+description: "A widget to build clocks, timers and everything that changes with time."
+
+version: 1.0.0
+
+homepage: https://github.com/BirjuVachhani/ticking_widget
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
