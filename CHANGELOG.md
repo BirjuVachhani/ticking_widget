@@ -1,3 +1,4 @@
-## 0.0.1
+## 1.0.0 [Unreleased]
 
-* TODO: Describe initial release.
+- Initial Release.
+- Introduces `TickingWidget` and `TickingWidgetMixin`.
