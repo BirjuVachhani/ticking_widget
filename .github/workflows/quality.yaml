@@ -1,0 +1,27 @@
+name: Code Quality
+
+on:
+  push:
+    branches:
+      - main
+    tags-ignore:
+      - '**'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  quality:
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+      - name: Install dependencies
+        run: flutter pub get
+      - name: Code Analysis
+        run: flutter analyze
+      - name: Code Formatting
+        run: dart format --set-exit-if-changed .
+      - name: Dry Run
+        run: flutter pub publish --dry-run
